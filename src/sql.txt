@@ -39,7 +39,9 @@ create table comment{
   `id` int(11) NOT NULL AUTO_INCREMENT,
   created_at timestamp NOT NULL default CURRENT_TIMESTAMP,
   username varchar(20),
-
+  content text,
+  article_id int(11)
+ PRIMARY KEY (`id`)
 }
 
 create table  activity(

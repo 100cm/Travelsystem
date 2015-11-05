@@ -46,52 +46,52 @@
 
     <div class="add-activity">
 
-        <form>
+        <form method="post" action="/new_activity.do">
             <div class="form-group">
                 <label >主题</label>
-                <input type="text" class="form-control"  placeholder="主题">
+                <input type="text" class="form-control"  name="theme" placeholder="主题">
             </div>
             <div class="form-group">
                 <label >活动地址</label>
-                <input type="text" class="form-control"  placeholder="想去哪里">
+                <input type="text" class="form-control"  name="location"  placeholder="想去哪里">
             </div>
             <div class="form-group">
                 <label >每人开销</label>
-                <input type="text" class="form-control"  placeholder="花费多少">
+                <input type="text" class="form-control"  name="spend" placeholder="花费多少">
             </div>
             <div class="form-group">
                 <label >需求人数</label>
-                <input type="text" class="form-control"  placeholder="人数">
+                <input type="text" class="form-control"  name="needPerson" placeholder="人数">
             </div>
-            <div class="form-group">
-                <label for="dtp_input2">报名截止日期</label>
-                <div class="input-group date form_date col-md-5" data-date="" data-date-format="dd MM yyyy" data-link-field="dtp_input4" data-link-format="yyyy-mm-dd">
-                    <input class="form-control" size="16" type="text" value="" readonly>
-                    <span class="input-group-addon"><span class="glyphicon glyphicon-remove"></span></span>
-                    <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
-                </div>
-                <input type="hidden" id="dtp_input4" value="" /><br/>
-            </div>
-            <div class="form-inline" style="margin-bottom: 30px">
-                <div class="form-group">
-                    <label for="dtp_input2">开始时间</label><br>
-                    <div class="input-group date form_date col-md-5" data-date="" data-date-format="dd MM yyyy" data-link-field="dtp_input2" data-link-format="yyyy-mm-dd">
-                        <input class="form-control" size="16"style="width: 300px" type="text" value="" readonly>
-                        <span class="input-group-addon"><span class="glyphicon glyphicon-remove"></span></span>
-                        <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
-                    </div>
-                    <input type="hidden" id="dtp_input2" value="" /><br/>
-                </div>
-                <div class="form-group" style="">
-                    <label for="dtp_input2">结束时间</label><br>
-                    <div class="input-group date form_date col-md-5" data-date="" data-date-format="dd MM yyyy" data-link-field="dtp_input3" data-link-format="yyyy-mm-dd">
-                        <input class="form-control" size="16" style="width: 300px" type="text" value="" readonly>
-                        <span class="input-group-addon"><span class="glyphicon glyphicon-remove"></span></span>
-                        <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
-                    </div>
-                    <input type="hidden" id="dtp_input3" value="" /><br/>
-                </div>
-            </div>
+            <%--<div class="form-group">--%>
+                <%--<label for="dtp_input2">报名截止日期</label>--%>
+                <%--<div class="input-group date form_date col-md-5" data-date="" data-date-format="dd MM yyyy" data-link-field="dtp_input4" data-link-format="yyyy-mm-dd">--%>
+                    <%--<input class="form-control" size="16" type="text" value="" readonly>--%>
+                    <%--<span class="input-group-addon"><span class="glyphicon glyphicon-remove"></span></span>--%>
+                    <%--<span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>--%>
+                <%--</div>--%>
+                <%--<input type="hidden" id="dtp_input4" value="" /><br/>--%>
+            <%--</div>--%>
+            <%--<div class="form-inline" style="margin-bottom: 30px">--%>
+                <%--<div class="form-group">--%>
+                    <%--<label for="dtp_input2">开始时间</label><br>--%>
+                    <%--<div class="input-group date form_date col-md-5" data-date="" data-date-format="dd MM yyyy" data-link-field="dtp_input2" data-link-format="yyyy-mm-dd">--%>
+                        <%--<input class="form-control" size="16"style="width: 300px" type="text" value="" readonly>--%>
+                        <%--<span class="input-group-addon"><span class="glyphicon glyphicon-remove"></span></span>--%>
+                        <%--<span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>--%>
+                    <%--</div>--%>
+                    <%--<input type="hidden" id="dtp_input2" value="" /><br/>--%>
+                <%--</div>--%>
+                <%--<div class="form-group" style="">--%>
+                    <%--<label for="dtp_input2">结束时间</label><br>--%>
+                    <%--<div class="input-group date form_date col-md-5" data-date="" data-date-format="dd MM yyyy" data-link-field="dtp_input3" data-link-format="yyyy-mm-dd">--%>
+                        <%--<input class="form-control" size="16" style="width: 300px" type="text" value="" readonly>--%>
+                        <%--<span class="input-group-addon"><span class="glyphicon glyphicon-remove"></span></span>--%>
+                        <%--<span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>--%>
+                    <%--</div>--%>
+                    <%--<input type="hidden" id="dtp_input3" value="" /><br/>--%>
+                <%--</div>--%>
+            <%--</div>--%>
 
              <div class="form-group">
                  <label>介绍本次活动</label>
@@ -102,7 +102,7 @@
 
                  </div>
 
-                     <textarea  id="content-textarea" class="form-control"   style="height: 300px; width:100%;resize: none;"></textarea>
+                     <textarea   name="introduce" id="content-textarea" class="form-control"   style="height: 300px; width:100%;resize: none;"></textarea>
 
 
 

@@ -93,15 +93,15 @@
                     <h3 class="panel-title">最新帖子</h3>
                 </div>
                 <div class="panel-body" style="color: #888">
-                    <c:forEach var="articles" items="${requestScope.articles}"  varStatus="status">
-                    
-                    <div class="custom-list-group">
-                        <a href="/article.do?id=${status.current.id}">${status.current.title}</a>
-                        <span><fmt:formatDate value="${status.current.createdAt}" type="date"></fmt:formatDate>
-                           </span>
-                        <div style="clear: both"></div>
-                    </div>
-                    </c:forEach>
+                    <%--<c:forEach var="articles" items="${requestScope.articles}"  varStatus="status">--%>
+                    <%----%>
+                    <%--<div class="custom-list-group">--%>
+                        <%--<a href="/article.do?id=${status.current.id}">${status.current.title}</a>--%>
+                        <%--<span><fmt:formatDate value="${status.current.createdAt}" type="date"></fmt:formatDate>--%>
+                           <%--</span>--%>
+                        <%--<div style="clear: both"></div>--%>
+                    <%--</div>--%>
+                    <%--</c:forEach>--%>
 
                 </div>
 

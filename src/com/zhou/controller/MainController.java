@@ -107,11 +107,11 @@ public class MainController{
     @RequestMapping("/main.do")
     public ModelAndView mainpage(Model model){
 
-        List<ArticleWithBLOBs> article=articleService.selectAllArticle().subList(0,5);
+//        List<ArticleWithBLOBs> article=articleService.selectAllArticle().subList(0,5);
 
         ModelAndView mav =new ModelAndView("main");
 
-        model.addAttribute("articles",article);
+//        model.addAttribute("articles",article);
 
         model.addAttribute("is_login",true);
 
