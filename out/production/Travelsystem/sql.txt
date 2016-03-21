@@ -1,0 +1,55 @@
+CREATE TABLE `users` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` char(20) DEFAULT NULL,
+  created_at timestamp NOT NULL default CURRENT_TIMESTAMP,
+  password varchar(20),
+  PRIMARY KEY (`id`)
+)
+create table article(
+
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  created_at timestamp NOT NULL default CURRENT_TIMESTAMP,
+  title varchar(200),
+  maincontent text,
+  content  text,
+  img  text,
+  authorname  varchar(200),
+  authorid	int(11),
+  PRIMARY KEY (`id`)
+
+);
+
+create table aac(
+
+aid int(11),
+
+cid int(11),
+
+)
+
+create table commentandarticle(){
+`id` int(11) NOT NULL AUTO_INCREMENT,
+  article_id int(11),
+  commen_id  int(11),
+  PRIMARY KEY (`id`)
+}
+
+create table comment{
+
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  created_at timestamp NOT NULL default CURRENT_TIMESTAMP,
+  username varchar(20),
+  content text,
+  article_id int(11)
+ PRIMARY KEY (`id`)
+}
+
+create table  activity(
+
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  created_at timestamp NOT NULL default CURRENT_TIMESTAMP,
+  username varchar(20),
+  userid int(11),
+
+
+)

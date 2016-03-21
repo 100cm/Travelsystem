@@ -12,4 +12,5 @@ public interface ActivityService {
     int InsertActivity(Activity activity);
     List<Activity> selectAllactivity();
     List<Activity> selectAllbyUserid(int userid);
+    Activity find_by_id(int id);
 }

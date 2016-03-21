@@ -31,4 +31,9 @@ public class ActivityServiceImpl implements ActivityService{
     public List<Activity> selectAllbyUserid(int userid) {
         return activityMapper.selectAllByUserid(userid);
     }
+
+    @Override
+    public Activity find_by_id(int id) {
+        return activityMapper.selectByPrimaryKey(id);
+    }
 }

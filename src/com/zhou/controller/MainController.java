@@ -2,9 +2,10 @@ package com.zhou.controller;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import com.sun.deploy.net.HttpResponse;
-import com.zhou.model.Article;
-import com.zhou.model.ArticleWithBLOBs;
+import com.zhou.model.*;
+import com.zhou.service.ActivityService;
 import com.zhou.service.ArticleService;
+import com.zhou.service.JoinmeService;
 import org.apache.ibatis.session.SqlSession;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -19,9 +20,11 @@ import util.SomeUtil;
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.io.File;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -35,6 +38,13 @@ public class MainController{
     @Autowired
     private ArticleService articleService;
 
+    @Autowired
+
+    private JoinmeService joinmeService;
+
+    @Autowired
+
+    private ActivityService activityService;
 
 
     private SomeUtil util;
@@ -107,11 +117,11 @@ public class MainController{
     @RequestMapping("/main.do")
     public ModelAndView mainpage(Model model){
 
-//        List<ArticleWithBLOBs> article=articleService.selectAllArticle().subList(0,5);
+        List<ArticleWithBLOBs> article=articleService.selectAllArticle().subList(0,5);
 
         ModelAndView mav =new ModelAndView("main");
 
-//        model.addAttribute("articles",article);
+        model.addAttribute("articles",article);
 
         model.addAttribute("is_login",true);
 
@@ -122,12 +132,17 @@ public class MainController{
         return mav;
     }
     @RequestMapping("/profile.do")
-    public ModelAndView profile(Model model){
+    public ModelAndView profile(Model model,HttpSession httpSession){
 
         ModelAndView mav =new ModelAndView("profile");
-
+       User user= (User) httpSession.getAttribute("user");
+        List<Joinme> joinmes  = joinmeService.getbyUserid(user.getId());
+        List<Activity> activities = new ArrayList<>();
+        joinmes.forEach(j -> {
+            activities.add(activityService.find_by_id(j.getActivityid()));
+        });
         model.addAttribute("profile_active",true);
-
+        model.addAttribute("joins",activities);
         mav.addObject(model);
 
         return mav;
