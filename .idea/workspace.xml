@@ -732,6 +732,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
@@ -823,16 +829,16 @@
       <created>1458524982567</created>
       <option name="number" value="Default" />
       <updated>1458524982567</updated>
-      <workItem from="1458524986460" duration="13594000" />
+      <workItem from="1458524986460" duration="13996000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13594000" />
+    <option name="totallyTimeSpent" value="13996000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="23" width="1920" height="981" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -920,8 +926,8 @@
         <state vertical-scroll-proportion="0.56782335">
           <caret line="36" column="53" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="53" />
           <folding>
-            <element signature="e#837#838#0" expanded="true" />
-            <element signature="e#897#898#0" expanded="true" />
+            <element signature="e#837#838#0" expanded="false" />
+            <element signature="e#897#898#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -964,7 +970,7 @@
         <state vertical-scroll-proportion="0.5107527">
           <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1025,14 +1031,14 @@
         <state vertical-scroll-proportion="0.5107527">
           <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
           <folding>
-            <marker date="1458541810000" expanded="true" signature="-1:-1" placeholder="select from ..joinme..." />
-            <marker date="1458541810000" expanded="true" signature="-1:-1" placeholder="select * fro..joinme..." />
-            <marker date="1458541810000" expanded="true" signature="-1:-1" placeholder="select * fro..joinme..." />
-            <marker date="1458541810000" expanded="true" signature="-1:-1" placeholder="select * fro..joinme..." />
-            <marker date="1458541810000" expanded="true" signature="-1:-1" placeholder="delete from ..." />
-            <marker date="1458541810000" expanded="true" signature="-1:-1" placeholder="insert into ..." />
-            <marker date="1458541810000" expanded="true" signature="-1:-1" placeholder="update joinm..." />
-            <marker date="1458541810000" expanded="true" signature="-1:-1" placeholder="update joinm..." />
+            <marker date="1458543594000" expanded="true" signature="-1:-1" placeholder="select from ..joinme..." />
+            <marker date="1458543594000" expanded="true" signature="-1:-1" placeholder="select * fro..joinme..." />
+            <marker date="1458543594000" expanded="true" signature="-1:-1" placeholder="select * fro..joinme..." />
+            <marker date="1458543594000" expanded="true" signature="-1:-1" placeholder="select * fro..joinme..." />
+            <marker date="1458543594000" expanded="true" signature="-1:-1" placeholder="delete from ..." />
+            <marker date="1458543594000" expanded="true" signature="-1:-1" placeholder="insert into ..." />
+            <marker date="1458543594000" expanded="true" signature="-1:-1" placeholder="update joinm..." />
+            <marker date="1458543594000" expanded="true" signature="-1:-1" placeholder="update joinm..." />
           </folding>
         </state>
       </provider>
