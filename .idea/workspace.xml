@@ -1,30 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4592bdff-d30e-407b-b6d2-ec85cb8893c6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/zhou/service/impl/JoinServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/zhou/service/JoinmeService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/Travelsystem_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/single_activity.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/Travelsystem.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/util/Test.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/show_activity.do.jsp" afterPath="$PROJECT_DIR$/web/show_activity.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/zhou/controller/ActivityController.java" afterPath="$PROJECT_DIR$/src/com/zhou/controller/ActivityController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/zhou/service/ActivityService.java" afterPath="$PROJECT_DIR$/src/com/zhou/service/ActivityService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/zhou/service/impl/ActivityServiceImpl.java" afterPath="$PROJECT_DIR$/src/com/zhou/service/impl/ActivityServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/zhou/controller/MainController.java" afterPath="$PROJECT_DIR$/src/com/zhou/controller/MainController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/zhou/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/com/zhou/service/impl/UserServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/club.jsp" afterPath="$PROJECT_DIR$/web/club.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/generateConfig.xml" afterPath="$PROJECT_DIR$/src/generateConfig.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/layout/head.jsp" afterPath="$PROJECT_DIR$/web/layout/head.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/main.jsp" afterPath="$PROJECT_DIR$/web/main.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/profile.jsp" afterPath="$PROJECT_DIR$/web/profile.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="4592bdff-d30e-407b-b6d2-ec85cb8893c6" name="Default" comment="" />
     <ignored path="Travelsystem.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -135,8 +112,8 @@
       <file leaf-file-name="head.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/layout/head.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.57865167">
-              <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.46629214">
+              <caret line="42" column="10" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -846,12 +823,12 @@
       <created>1458524982567</created>
       <option name="number" value="Default" />
       <updated>1458524982567</updated>
-      <workItem from="1458524986460" duration="13564000" />
+      <workItem from="1458524986460" duration="13594000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13564000" />
+    <option name="totallyTimeSpent" value="13594000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="23" width="1920" height="981" extended-state="6" />
@@ -1144,8 +1121,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/layout/head.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57865167">
-          <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.46629214">
+          <caret line="42" column="10" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
           <folding />
         </state>
       </provider>
